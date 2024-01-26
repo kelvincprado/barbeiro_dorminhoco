@@ -15,14 +15,14 @@ A barbearia é composta por uma sala de espera com n cadeiras, mais a cadeira do
 
 O objetivo do trabalho é implementar a thread Barbeiro e diversas threads Cliente, que se comportarão como descrito acima. O programa deve exibir mensagens que indiquem o que está acontecendo, como por exemplo (lista não exaustiva):
 
-	Não há clientes para atender, o Barbeiro foi dormir.
-	Chegou novo Cliente.
-	Não existem cadeiras de espera disponíveis, Cliente foi embora.
-	Existem x de y cadeiras livres para espera, Cliente aguardando sua vez. [Nota: x é o número de vagas e y é a quantidade de cadeiras determinada na implementação]
-	O Barbeiro está dormindo.
-	O Barbeiro está cortando o Cabelo do Cliente x. [Nota: x é o número da cadeira que o cliente estava ocupando na espera]
-	Não há clientes em espera, o Barbeiro foi dormir.
-	Cliente acordou o barbeiro.
+-	Não há clientes para atender, o Barbeiro foi dormir.
+-	Chegou novo Cliente.
+-	Não existem cadeiras de espera disponíveis, Cliente foi embora.
+-	Existem x de y cadeiras livres para espera, Cliente aguardando sua vez. [Nota: x é o número de vagas e y é a quantidade de cadeiras determinada na implementação]
+-	O Barbeiro está dormindo.
+-	O Barbeiro está cortando o Cabelo do Cliente x. [Nota: x é o número da cadeira que o cliente estava ocupando na espera]
+-	Não há clientes em espera, o Barbeiro foi dormir.
+-	Cliente acordou o barbeiro.
 
 O código deve evitar condições de disputa na seção crítica. Os tempos de chegada de cada cliente são aleatórios (utilize a biblioteca random de C++ e a chamada de sistema sleep para esperar um tempo aleatório).
 
