@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1647655575 source:/home/usuario/Documentos/trabalho_final/barbeiro_dorminhoco/main.cpp
+	"Barbearia.h"
+	"cliente.h"
+	<map>
+
+1647561391 /home/usuario/Documentos/trabalho_final/barbeiro_dorminhoco/include/Barbearia.h
+	<iostream>
+	<vector>
+	<mutex>
+	<thread>
+
+1647561474 source:/home/usuario/Documentos/trabalho_final/barbeiro_dorminhoco/src/Barbearia.cpp
+	"Barbearia.h"
+	"cliente.h"
+	<future>
+
+1648342775 source:/home/usuario/Documentos/trabalho_final/barbeiro_dorminhoco/src/cliente.cpp
+	"cliente.h"
+	"Barbearia.h"
+
+1647559237 /home/usuario/Documentos/trabalho_final/barbeiro_dorminhoco/include/cliente.h
+	<random>
+	<iostream>
+	<chrono>
+	<thread>
+	<mutex>
+
